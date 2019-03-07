@@ -1,36 +1,117 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>S&uuml;rpr&uuml;z</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="utf-8">
+    <title>zey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
-      	body {
-          margin: 1em auto;
-          max-width: 40em;
-          padding: 0 .62em;
-          font: 1.2em/1.62 sans-serif;
-        }
-        h1, h2, h3 {line-height: 1.2;}
-        img {width: auto; height: 720px;}
-        blockquote {
-          background: #eee;
-          border-radius: 5px;
-        }
-        blockquote p {padding: 15px;}
-        blockquote p::before {content: '\201C';}
-        blockquote p::after {content: '\201D';}
+      body {
+        max-width: 40em;
+        padding:0 .62em;
+        margin:1em auto;
+        font: 1.2em/1.62 sans-serif;
+        color: #222;
+      }
+
+      h1, h2, h3 {line-height: 1.2;}
+      h1.header {
+        border-bottom: 5px solid #e85d93;
+        display: inline;
+        padding-bottom: .1em;
+      }
+
+      header {
+        margin: 1em auto;
+        padding: 0.62em;
+      }
+
+      li {display: inline;}
+      ul, li {margin: 0; padding: .7em;}
+
+      a {
+        text-decoration: none;
+        color: #e85d93;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 0.5em;
+        grid-auto-rows: auto;
+        grid-auto-flow: dense;
+
+        justify-items: center;
+        align-items: center;
+      }
+
+      .hor {grid-column: span 3;}
+      .ver {
+        grid-row: span 2;
+        grid-column: span 2;
+      }
+      .big {
+        grid-column: span 3;
+        grid-row: span 2;
+      }
+
+      img {
+        max-width: 100%;
+        heigth: auto;
+      }
+
+    </style>
     </style>
   </head>
   <body>
-    <h1>Benli&gbreve;ini kaybetmemen dile&gbreve;iyle, mutlu y&inodot;llara...</h1>
+    <header>
+      <center>
+        <h1 class="header">Frambuazlı Poğaça</h1>
 
-    <blockquote><p>When I stare at a ﬁxed point on the wall for a long time, it sometimes 
-    happens that I no longer know who I am or where I am. Then I feel my 
-    absence of identity from a distance as if I had become, for a moment, a 
-    complete stranger. With equal force, this abstract character and my real self 
-    struggle to win my conviction.</p></blockquote>
-    <cite>&#8213; Max Blecher, Adventures in Immediate Unreality</cite>
-    
-    <h2>Frambuazl&inodot; Po&gbreve;a&ccedil;a</h2>
-   <center><img src="zey.jpg"></center>
+        <ul>
+          <li><a href="dg.html">8/2/19</a></li>
+        </ul>
+      </center>
+    </header>
+    <div class="grid">
+      <div class="ver"><img src="images/0.jpg"></div>
+      <div class="hor"><img src="images/1.jpg"></div>
+      <div class="ver"><img src="images/2.jpg"></div>
+      <div class="ver"><img src="images/3.jpg"></div>
+      <div class="ver"><img src="images/4.jpg"></div>
+      <div class="big"><img src="images/5.jpg"></div>
+      <div class="ver"><img src="images/6.jpg"></div>
+      <div class="hor"><img src="images/7.jpg"></div>
+      <div class="hor"><img src="images/8.jpg"></div>
+      <div class="ver"><img src="images/9.jpg"></div>
+      <div class="ver"><img src="images/10.jpg"></div>
+      <div class="hor"><img src="images/11.jpg"></div>
+      <div class="hor"><img src="images/12.jpg"></div>
+      <div class="hor"><img src="images/13.jpg"></div>
+      <div class="ver"><img src="images/14.png"></div>
+      <div class="ver"><img src="images/15.png"></div>
+      <div class="ver"><img src="images/16.png"></div>
+      <div class="ver"><img src="images/17.png"></div>
+      <div class="big"><img src="images/18.jpg"></div>
+      <div class="ver"><img src="images/19.png"></div>
+      <div class="ver"><img src="images/20.jpg"></div>
+      <div class="ver"><img src="images/21.jpg"></div>
+      <div class="hor"><img src="images/22.jpg"></div>
+      <div class="hor"><img src="images/23.jpg"></div>
+      <div class="ver"><img src="images/24.jpg"></div>
+      <div class="hor"><img src="images/25.jpg"></div>
+      <!--<div class="ver"><img src="images/26.jpg"></div>-->
+      <div class="ver"><img src="images/27.jpg"></div>
+      <div class="hor"><img src="images/28.jpg"></div>
+      <div class="big"><img src="images/29.jpg"></div>
+      <div class="hor"><img src="images/30.jpg"></div>
+      <div class="big"><img src="images/31.jpg"></div>
+      <div class="hor"><img src="images/32.jpg"></div>
+      <div class="ver"><img src="images/33.jpg"></div>
+      <div class="hor"><img src="images/34.jpg"></div>
+      <div class="big"><img src="images/35.jpg"></div>
+      <div class="ver"><img src="images/36.jpg"></div>
+      <div class="ver"><img src="images/37.jpg"></div>
+    </div>
   </body>
 </html>
